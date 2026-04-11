@@ -11,7 +11,7 @@
 
 ### Запуск
 
-pip install -r requirements.txt
+pip install -r requirements.txt    
 python -m uvicorn app.main:app --reload --port 4200
 ### API Эндпоинты
 Метод	URI	Описание  
