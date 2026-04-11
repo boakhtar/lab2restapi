@@ -12,7 +12,8 @@
 ### Запуск
 
 pip install -r requirements.txt    
-python -m uvicorn app.main:app --reload --port 4200
+python -m uvicorn app.main:app --reload --port 4200  
+в браузере: http://localhost:4200/items/?page=1&limit=10
 ### API Эндпоинты
 Метод	URI	Описание  
 POST	/items/	Создать  
